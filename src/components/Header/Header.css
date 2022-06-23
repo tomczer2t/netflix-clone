@@ -1,0 +1,76 @@
+.Header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 60vw;
+    max-height: 700px;
+    min-height: 240px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    z-index: 1;
+}
+
+.Header::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 0 0;
+    z-index: -1;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(30, 31, 31, 0.52) 0%,
+            rgba(30, 31, 31, 0.82) 80%,
+            var(--background-color) 100%
+    );
+}
+
+.Header__movie {
+    width: 80%;
+    font-size: min(3vw, 1rem);
+    padding: 1rem 1rem 1rem 5vw;
+    margin-bottom: min(10vw, 6rem)
+}
+
+.Header__overview {
+    margin-block: 3vw;
+    font-size: 90%;
+    display: none;
+}
+
+.Header__button {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    font-size: 1.5em;
+    padding: .3rem 1rem;
+    margin-top: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: .3rem;
+    background-color: rgba(102, 107, 107, 0.5);
+}
+
+@media screen and (min-width: 640px) {
+    .Header__movie {
+        width: 55%;
+    }
+
+    .Header__overview {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    .Header__movie {
+        width: 45%;
+    }
+
+    .Header__title {
+        font-size: 3em;
+    }
+
+    .Header__overview {
+        font-size: 1em;
+    }
+}

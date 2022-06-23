@@ -1,0 +1,1 @@
+export type Query = 'person' | 'movie' | 'tv';

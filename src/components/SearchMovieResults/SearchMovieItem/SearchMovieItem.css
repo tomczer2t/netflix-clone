@@ -1,0 +1,20 @@
+.SearchMovieItem {
+    background-color: #414141;
+    width: 100%;
+    aspect-ratio: 11 / 16;
+    overflow: hidden;
+}
+
+.SearchMovieItem__image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 150ms ease-in-out;
+}
+
+.SearchMovieItem__image:hover {
+    transform: scale(1.1);
+}
+
+
+

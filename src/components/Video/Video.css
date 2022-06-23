@@ -1,0 +1,25 @@
+.Video {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inset: 0 0 0 0;
+    z-index: 1000;
+    background-color: rgba(30, 31, 31, 0.85);
+}
+
+
+.Video__iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    max-width: 800px;
+    margin-inline: .5rem;
+    border: none;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.95);
+}
+
+@media screen and (orientation: landscape) {
+    .Video__iframe {
+        margin-inline: 5rem;
+    }
+}

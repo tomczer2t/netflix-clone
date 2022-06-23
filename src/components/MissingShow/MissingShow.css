@@ -1,0 +1,10 @@
+.MissingShow {
+    padding-top: 90px;
+    margin-top: 3rem;
+    text-align: center;
+    margin-inline: .5rem;
+}
+
+.MissingShow__icon {
+    font-size: 5em;
+}

@@ -1,0 +1,12 @@
+.SearchMovieResults {
+    padding-top: 90px;
+}
+
+.SearchMovieResults__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: .5rem;
+    padding-inline: 5vw;
+    max-width: 1200px;
+    margin-inline: auto;
+}

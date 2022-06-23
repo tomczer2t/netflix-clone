@@ -1,0 +1,34 @@
+.ActorCard {
+    position: relative;
+    flex-basis: 100px;
+    flex-grow: 1;
+    overflow: hidden;
+    border-radius: .3rem;
+}
+
+.ActorCard__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    opacity: 1;
+    transition: opacity 150ms ease-in-out;
+}
+
+.ActorCard:hover .ActorCard__image {
+    opacity: 0.1;
+}
+
+.ActorCard__name-wrapper {
+    position: absolute;
+    inset: 0 0 0 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.ActorCard__name {
+    text-align: center;
+}
