@@ -1,7 +1,7 @@
 # Netflix Clone app
 Simple netflix clone app created with React.js, using https://www.themoviedb.org/ api.
 
-<!--- ![Demo screenshot](src/assets/images/demo-screenshot.png) -->
+[Demo screenshot](src/assets/images/demo-screenshot.png)
 
 ## Table of contents
 <!--- * [Demo](#demo) -->
@@ -9,8 +9,8 @@ Simple netflix clone app created with React.js, using https://www.themoviedb.org
 * [How to use](#how-to-use)
 * [Technologies](#technologies)
 
-## Demo
-Here is a working live demo: https://netflix-movies-clone.herokuapp.com/
+<!--- ! ## Demo
+Here is a working live demo: https://netflix-movies-clone.herokuapp.com/ -->
 
 ## General info
 This project is a minimalist Netflix clone app. In the application you can search movies, view short information about them and watch their trailers.
