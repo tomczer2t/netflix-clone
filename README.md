@@ -4,7 +4,7 @@ Simple netflix clone app created with React.js, using https://www.themoviedb.org
 <!--- ![Demo screenshot](src/assets/images/demo-screenshot.png) -->
 
 ## Table of contents
-* [Demo](#demo)
+<!--- * [Demo](#demo) -->
 * [General info](#general-info)
 * [How to use](#how-to-use)
 * [Technologies](#technologies)
